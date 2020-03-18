@@ -1,20 +1,16 @@
 require_relative 'pannier'
 
-class RoadBike
+class RoadBike < AbstractBike
 
-  def initialize
+  def initialize 
     @panniers = [Pannier.new, Pannier.new]
     @daily_rate = 15
   end
 
-  def clean
+  def adjusting
     puts "Cleaning..."
   end
-
-  def lubricate_gears
-    puts "Lubricating gears..."
-  end
-
+ 
   def panniers
     @panniers
   end

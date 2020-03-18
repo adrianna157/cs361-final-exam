@@ -8,7 +8,7 @@ class RoadBike < AbstractBike
   end
 
   def adjusting
-    puts "Cleaning..."
+    puts "Cleaning... \n"
   end 
 
 end

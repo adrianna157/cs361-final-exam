@@ -9,7 +9,7 @@ class BmxBike < AbstractBike
   end
 
   def adjusting
-    puts "Adjusting seat..."
+    puts "Adjusting seat... \n"
   end
 
   def tail_pack

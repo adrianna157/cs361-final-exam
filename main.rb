@@ -7,7 +7,7 @@ require_relative 'bmx_bike'
 require_relative 'road_bike'
 require_relative 'mountain_bike'
 
-puts "testing"
+
 
 bmx_bike =BmxBike.new
 bmx_bike.prepare

@@ -11,7 +11,7 @@ class MountainBike < AbstractBike
   end
 
   def adjusting
-    puts "Adjusting suspension..."
+    puts "Adjusting suspension... \n"
   end
 
   def luggage

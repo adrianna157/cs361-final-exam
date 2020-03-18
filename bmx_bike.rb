@@ -1,4 +1,5 @@
 require_relative 'tail_pack'
+require_relative 'abstract_bike'
 
 class BmxBike < AbstractBike
 

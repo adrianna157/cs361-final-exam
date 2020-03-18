@@ -5,9 +5,7 @@ class BmxBike < AbstractBike
 
   def initialize
     @tail_pack = TailPack.new
-    @weekly_price = 70
-    @daily_price = 20
-    @hourly_price = 5
+    
   end
 
   def adjusting

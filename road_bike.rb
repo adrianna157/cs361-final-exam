@@ -1,23 +1,14 @@
-require_relative 'pannier'
+require_relative 'set_price'
 require_relative 'abstract_bike'
 
 class RoadBike < AbstractBike
 
   def initialize 
-    @panniers = [Pannier.new, Pannier.new]
-    @daily_rate = 15
+    @price = SetPrice.new(nil, 15, nil)
   end
 
   def adjusting
     puts "Cleaning..."
-  end
- 
-  def panniers
-    @panniers
-  end
-
-  def daily_rate
-    @daily_rate
-  end
+  end 
 
 end
